@@ -11,12 +11,13 @@ elif hour > 18 and hour < 19:
 else:
     print('Good night.')
 
-what_you__are = input("""Hello. I am the voting program of the future. These are the options available for login. Are you are 
-a Voter
-b Canidate
-
-""")
 def canidate_or_voter():
+
+    what_you__are = input("""Hello. I am the voting program of the future. These are the options available for login. Are you are 
+    a Voter
+    b Canidate
+
+    """)
     if what_you__are == "a" or what_you__are == "voter" or what_you__are == "A" or what_you__are == "Voter":
         print("Yaay")
     elif what_you__are == "b" or what_you__are == "canidate" or what_you__are == "B" or what_you__are == "Candidate":
