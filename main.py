@@ -1,4 +1,5 @@
 import time
+from Voter import * as vote
 import datetime
 now = datetime.datetime.now()
 hour = now.hour
@@ -19,7 +20,7 @@ def canidate_or_voter():
 
     """)
     if what_you__are == "a" or what_you__are == "voter" or what_you__are == "A" or what_you__are == "Voter":
-        print("Yaay")
+        print(vote)
     elif what_you__are == "b" or what_you__are == "canidate" or what_you__are == "B" or what_you__are == "Candidate":
         print("Wohhoo")
     else:
