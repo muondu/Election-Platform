@@ -1,5 +1,5 @@
 import sqlite3
-canidate = sqlite3.connect('canidate.db')
+canidate = sqlite3.connect('candidates.db')
 can = canidate.cursor()
 donn = sqlite3.connect('voter.db')
 d = donn.commit()
