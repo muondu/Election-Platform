@@ -1,7 +1,7 @@
 import sqlite3
 
 def login():
-    for i in range(4):
+    while True:
         username = input("Pls enter your username: ")
         password = input("Pls enter your password: ")
         with sqlite3.connect("Quiz.db") as db:
