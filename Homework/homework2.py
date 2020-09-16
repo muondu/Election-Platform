@@ -17,4 +17,13 @@ c.execute('INSERT INTO number VALUES("10")')
 # conn.commit()
 def youtuber():
     c.execute('SELECT * FROM number')
-    print(c.fetchall())
+    hello = c.fetchall()
+    # print(hello)
+
+    dub = [value for a in hello for value in a] 
+    adding = sum(dub)
+    print(adding)
+    c.execute('CREATE TABLE IF NOT EXISTS total(name INGEGER)')
+    c.execute('INSERT INTO total VALUES(?)',(adding,))
+
+youtuber()
