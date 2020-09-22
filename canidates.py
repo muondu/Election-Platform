@@ -5,10 +5,16 @@ def candidates():
 
     c.execute('CREATE TABLE IF NOT EXISTS candidate(fName TEXT,sName TEXT)')
     firstName = input("Enter your first name: ")
-    secondName = input("Enter your second name: ")
-    c.execute("INSERT INTO candidate(fName, sName)VALUES(?,?)",(firstName, secondName))    
-    c.execute('SELECT * FROM candidate')
-    print(c.fetchall())
-    conn.commit()
+    if firstName == " ":
+        print("You can't put spaces")
+    else:
+        secondName = input("Enter your second name: ")
+        c.execute("INSERT INTO candidate(fName, sName)VALUES(?,?)",(firstName, secondName))    
+        c.execute('SELECT * FROM candidate')
+        print(c.fetchall())
+        conn.commit()
+
+        
+    
 candidates()        
 
