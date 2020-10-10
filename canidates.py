@@ -7,6 +7,7 @@ def candidates():
     firstName = input("Enter your first name: ")
     if firstName == " ":
         print("You can't put spaces")
+        candidates()
     else:
         secondName = input("Enter your second name: ")
         c.execute("INSERT INTO candidate(fName, sName)VALUES(?,?)",(firstName, secondName))    

@@ -12,15 +12,18 @@ def Voter():
     firstName = input("Enter your first name: ")
     if firstName == " ":
         print("You cannot put spaces")
+        Voter()
     else:
         secondName = input("Enter your second name: ")
         if secondName == " ":
             print("You can't piut spaces")
+            Voter()
         else:
             age = int(input("Enter your age: "))
             if age < 18:
                 print("You are not able to vote")
-            else:
+                Voter()
+            elif age > 18:
                 id_number = int(input("Enter your id_number: "))
                 id_num = str(id_number)
                 if len(id_num) < 7 or len(id_num) > 9:
@@ -42,12 +45,16 @@ def Voter():
                         #     break
                         which_canidate = input("Which canidate do you want:  ")
                         print("Thank you for voting. Good Bye")
+                        
                         c.execute('INSERT INTO voted VALUES(?)',(which_canidate,))
                         conn.commit()
+                        exit()
                             
                             
                     voting_canidate()
-
+            else:
+                print("That is not a number. Pls try again")
+                Voter()
     
     
 

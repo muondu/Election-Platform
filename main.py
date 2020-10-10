@@ -11,7 +11,7 @@ else:
     print('Good night.')
 
 which_person = input("""
-Hi. These are the options
+These are the options
 a Voter
 b Candidate
 c Staff member
@@ -20,7 +20,7 @@ Choose any of them:
 """)
 if which_person == "a" or which_person == "A" or which_person == "Voter" or which_person == "a voter" or which_person == "A voter" or which_person == "A Voter":
     from Voter import *
-    Voter()
+    Voter() 
 elif which_person == "b" or which_person == "B" or which_person == "Candidate" or which_person == "b candidate" or which_person == "B candidate" or which_person == "B Candidate":
     from canidates import *
     candidates()
