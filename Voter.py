@@ -44,7 +44,12 @@ def Voter():
                         #     exit()
                         #     break
                         which_canidate = input("Which canidate do you want:  ")
-                        print("Thank you for voting. Good Bye")
+                        if which_canidate == " ":
+                            print("There are no spacebars")
+                            Voter()
+                        else:
+                            
+                            print("Thank you for voting. Good Bye")
                         
                         c.execute('INSERT INTO voted VALUES(?)',(which_canidate,))
                         conn.commit()
