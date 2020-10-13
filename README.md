@@ -77,6 +77,7 @@ I would/ We'd love to have your help in making  **{this system (replace with nam
 
 Before you contribute though read the contributing guide here: [COntributing.md{edit this}](https://github.com/YourUserNameHere/ProjectName/contributing.md)
 
+For any concerns, please open an [issue{edit this}](https://github.com/muondu/Election-Platform/issues)/JUST, [fork the project and send a pull request{edit this}](https://github.com/muondu/Election-Platform/pulls) / Join our discord group Link above.
 
 
 <hr>
