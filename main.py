@@ -11,7 +11,7 @@ else:
     print('Good night.')
 
 which_person = input("""
-These are the options
+Who do you want to be
 a Voter
 b Candidate
 c Staff member
