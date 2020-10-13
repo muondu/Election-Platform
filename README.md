@@ -59,6 +59,7 @@ How to run the project:
 Add the various things that you are working on.  
 
 - [ ] Creating a website for the front page
+- [x] Add a readme
 - [] Dubbing all day
 - [x] Make a video
 - [x] Building a house in minecraft
@@ -76,7 +77,6 @@ I would/ We'd love to have your help in making  **{this system (replace with nam
 
 Before you contribute though read the contributing guide here: [COntributing.md{edit this}](https://github.com/YourUserNameHere/ProjectName/contributing.md)
 
-For any concerns, please open an [issue{edit this}](https://github.com/YourUserNameHere/ProjectName/issues), or JUST, [fork the project and send a pull request{edit this}](https://github.com/YourUserNameHere/ProjectName/pulls) or Join our discord group Link above. 
 
 
 <hr>
@@ -91,7 +91,7 @@ For any concerns, please open an [issue{edit this}](https://github.com/YourUserN
 
 ### Contact Information
 
-If you have found any bugs, or have any feedback or questions and or want to post a feature request please use the [Issuetracker](https://github.com/tamzi/ReadMe-MasterTemplates/issues) to report them or ask them in my/ours dicord channel. Link https://discord.gg/wusUkkw
+If you have found any bugs, or have any feedback or questions and or want to post a feature request please use the [Issuetracker](https://github.com/muondu/Election-Platform/issues) to report them or ask them in my/ours dicord channel. Link https://discord.gg/wusUkkw
 
 <hr>
 
