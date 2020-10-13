@@ -9,15 +9,17 @@ elif hour > 17 and hour < 19:
     print("Good evening")
 else:
     print('Good night.')
+def which_person_function():
+    global which_person
+    which_person = input("""
+    Who do you want to be
+    a Voter
+    b Candidate
+    c Staff member
 
-which_person = input("""
-Who do you want to be
-a Voter
-b Candidate
-c Staff member
-
-Choose any of them:  
-""")
+    Choose any of them:  
+    """)
+which_person_function()
 if which_person == "a" or which_person == "A" or which_person == "Voter" or which_person == "a voter" or which_person == "A voter" or which_person == "A Voter":
     from Voter import *
     Voter() 
@@ -30,3 +32,4 @@ elif which_person == "c" or which_person == "C" or which_person == "Staff member
     staff()
 else:
     print("I did not understand you")
+    which_person_function()

@@ -26,7 +26,7 @@ def Voter():
                 global age
                 age = int(input("Enter your age: "))
             age_function()
-            if age < 18:
+            if age < 18:munenemuondu
                 print("You are not able to vote")
                 Voter()
             elif age > 18:
@@ -35,8 +35,8 @@ def Voter():
                         global id_number
                         id_number = int(input("Enter your id_number: "))
                     id_number_function()
-                    id_number_functuion()
                     id_num = str(id_number)
+                    
                     if len(id_num) < 7 or len(id_num) > 9:
                         print("The id number does not reach the number of digits")
                     else:
@@ -69,7 +69,7 @@ def Voter():
                                 
                         voting_canidate()
                 except ValueError:
-                    print("That is not a number")]
+                    print("That is not a number")
                     id_number_function()
             else:
                 print("That is not a number. Pls try again")
