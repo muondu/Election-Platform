@@ -1,11 +1,12 @@
-import datetime
-now = datetime.datetime.now()
+import datetime as time
+
+now = time.datetime.now()
 hour = now.hour
 if hour < 12:
     print("Good morning")
-elif hour > 12 and hour < 17:
+elif hour > 11 and hour < 18:
     print("Good afternoon")
-elif hour > 17 and hour < 19:
+elif hour > 18 and hour < 19:
     print("Good evening")
 else:
     print('Good night.')
