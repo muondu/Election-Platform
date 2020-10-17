@@ -26,7 +26,7 @@ def Voter():
                 global age
                 age = int(input("Enter your age: "))
             age_function()
-            if age < 18:munenemuondu
+            if age < 18:
                 print("You are not able to vote")
                 Voter()
             elif age > 18:
