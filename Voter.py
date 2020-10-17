@@ -28,12 +28,12 @@ def Voter():
             age_function()
             if age < 18:
                 print("You are not able to vote")
-                Voter()
+                
             elif age > 18:
                 try:
                     def id_number_function():
                         global id_number
-                        id_number = int(input("Enter your id_number: "))
+                        id_number = int(input("Enter your id_number(8 digits): "))
                     id_number_function()
                     id_num = str(id_number)
                     
