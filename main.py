@@ -15,8 +15,7 @@ def which_person_function():
     which_person = input("""
     Who do you want to be
     a Voter
-    b Candidate
-    c Staff member
+    b Staff member
 
     Choose any of them:  
     """)
@@ -24,10 +23,7 @@ which_person_function()
 if which_person == "a" or which_person == "A" or which_person == "Voter" or which_person == "a voter" or which_person == "A voter" or which_person == "A Voter":
     from Voter import *
     Voter() 
-elif which_person == "b" or which_person == "B" or which_person == "Candidate" or which_person == "b candidate" or which_person == "B candidate" or which_person == "B Candidate":
-    from canidates import *
-    candidates()
-elif which_person == "c" or which_person == "C" or which_person == "Staff member" or which_person == "c staff member" or which_person == "C staff member" or which_person == "C Staff member":
+elif which_person == "b" or which_person == "B" or which_person == "Staff member" or which_person == "b staff member" or which_person == "B staff member" or which_person == "B Staff member":
     from staff import *
 
     staff()
